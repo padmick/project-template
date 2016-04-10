@@ -1,9 +1,4 @@
-// Describe your query
-// at the start
-// in comments.
 
 
-MATCH
-	(n)
-RETURN
-	n;
+MATCH (n)
+RETURN n.party_name, COUNT(*);
